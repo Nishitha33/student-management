@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Management System (MVC)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎓 Student Management System</h1>
+
+  <form id="studentForm">
+    <input type="text" id="studentId" placeholder="ID" required>
+    <input type="text" id="studentName" placeholder="Name" required>
+    <input type="number" id="studentAge" placeholder="Age" required>
+    <button type="submit">Add / Update</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th><th>Name</th><th>Age</th><th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
